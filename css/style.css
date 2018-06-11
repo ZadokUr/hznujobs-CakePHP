@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#main_container{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80%;
+  	padding: 80px 56px;
+  	margin-bottom: 80px;
+  	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+}
+#main_container{
+	padding-top:10px;
+}
+#main_container h3{
+	margin-top:10px;
+	font-size: 200%
+}
+.greytext{
+	color: rgb(66,66,66) !important;
+}
+
+#footer{
+ text-align: center;
+ bottom: 0;
+}
+#footer p{
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+.mobile-fab-tip {
+    position: fixed;
+    right: 60px;
+    padding:0px 0.5rem;
+    text-align: right;
+    background-color: #0d325a;
+    border-radius: 2px;
+    color: #FFF;
+    width:auto;
+}
+
+.type{
+	float: left;
+	width: 15%;
+	margin-top: 30px;
+}
+
+.type span{
+	padding: 10px 20px 10px 20px;
+	color: white;
+	background: #81b800;
+}
+.Listings li{
+   overflow: auto;
+   border-bottom: 1px #ccc dotted;
+   padding: 10px 0 10px 0;
+   list-style: none;
+}
+
+.description{
+	float: right;
+	width: 85%;
+}
+
+.readmore{
+	font-size: 15px;
+}
+
+#search_area{
+	min-height: 100px;
+	padding: 20px 10px 10px 20px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	margin-top: -15px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/*label color*/
+.input-field label{
+	color: #2979ff;
+}
+/*label focus color*/
+.input-field input[type=text]:focus + label{
+	color: #2979ff;
+}
+/*label underline focus color*/
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #2979ff;
+	box-shadow: 0 1px 0 0 #2979ff;
+}
+.input-field{
+	margin-bottom: 0;
+}
+#search_area button{
+	margin-top: 0;
+}
+
+fieldset{
+	width: 80%;
+}
+legend{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.subBtn{
+	margin-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 992px) {
+ .type{
+ 	float:left;
+ 	width: 15%;
+ 	margin-top: 20px;
+ }
+ .type span{
+ 	padding: 5px 10px 5px 10px;
+ 	color: white;
+ 	background: #81b800;
+ 	font-size: 60%;
+ }
+}

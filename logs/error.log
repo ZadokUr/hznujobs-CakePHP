@@ -1,0 +1,17 @@
+2018-06-11 11:36:18 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\hznujobs2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php, line 195]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-06-11 11:36:21 Error: [Cake\Error\FatalErrorException] Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hznujobs2\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php on line 195
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\hznujobs2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 195)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
